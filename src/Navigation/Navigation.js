@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
   margin: 20px;
@@ -39,8 +40,8 @@ export default class Navigation extends React.Component{
     return (
       <Nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/About">About</Link></li>
         </ul>
       </Nav>
     )
