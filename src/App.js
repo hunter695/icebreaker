@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import styled, { keyframes } from 'styled-components';
+import Navigation from './Navigation'
 
 const Root = styled.main`
   text-align: center;
@@ -31,6 +32,7 @@ class App extends Component {
   render() {
     return (
       <Root>
+        <Navigation />
         <Header>
           <Logo src={logo} alt="logo" />
           <h2>Welcome to IceBreaker</h2>
