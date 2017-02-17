@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
-  margin: 20px;
+  padding-bottom: 4px;
+  box-shadow: 0 2px rgba(0,0,0,0.25);
 
   > ul {
     display: flex;
