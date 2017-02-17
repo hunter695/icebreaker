@@ -41,8 +41,8 @@ export default class Navigation extends React.Component{
     return (
       <Nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/About">About</Link></li>
+          <li><Link to="/icebreaker">Home</Link></li>
+          <li><Link to="/icebreaker/About">About</Link></li>
         </ul>
       </Nav>
     )
