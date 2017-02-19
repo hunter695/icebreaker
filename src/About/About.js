@@ -17,13 +17,12 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
-  min-height: 550px;
-  min-width: 320px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 `;
 
 const Portrait = styled.img`
   flex: 0 0 300px;
+  max-height: 300px;
   border-radius: 5px 5px 0px 0px;
 `;
 
