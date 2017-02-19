@@ -24,6 +24,7 @@ const Portrait = styled.img`
   flex: 0 0 300px;
   max-height: 300px;
   border-radius: 5px 5px 0px 0px;
+  min-height: 300px;
 `;
 
 const Title = styled.div`
@@ -55,7 +56,7 @@ export default class About extends Component {
             <Title>
               <h2>Igor</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odit eos ipsum eligendi temporibus alias consequatur velit cupiditate magni fuga nihil recusandae excepturi quam in, dolorem repellat provident illo officia!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odit eos ipsum eligendi temporibus alias consequatur velit cupiditate magni fuga nihil recusandae excepturi quam in, dolorem repellat provident illo officia! Check out his webpage <Link href="#" target="_blank">here</Link>.
               </Description>
             </Title>
           </Card>
@@ -64,7 +65,7 @@ export default class About extends Component {
             <Title>
               <h2>Joy</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores maxime nisi magni soluta. Necessitatibus dignissimos voluptates, tenetur, at earum voluptas commodi aliquid nam quibusdam officia enim fugiat placeat accusamus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores maxime nisi magni soluta. Necessitatibus dignissimos voluptates, tenetur, at earum voluptas commodi aliquid nam quibusdam officia enim fugiat placeat accusamus. Check out her webpage <Link href="#" target="_blank">here</Link>.
               </Description>
             </Title>
           </Card>
@@ -73,7 +74,7 @@ export default class About extends Component {
             <Title>
               <h2>Mabel</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quas eum fuga? Vel molestiae harum eius sapiente quisquam expedita amet quo iste in hic, repellendus minima odio distinctio ut laborum!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quas eum fuga? Vel molestiae harum eius sapiente quisquam expedita amet quo iste in hic, repellendus minima odio distinctio ut laborum! Check out her webpage <Link href="#" target="_blank">here</Link>.
               </Description>
             </Title>
           </Card>
@@ -82,7 +83,7 @@ export default class About extends Component {
             <Title>
               <h2>Wei</h2>
               <Description>
-                Wei Shi is a computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. Although C++ is his main programming language, he has experience in Java, JavaScript, and Python. Check out his webpage <Link href="https://theonlywei.github.io/">here</Link>.
+                Wei Shi is a computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. Although C++ is his main programming language, he has experience in Java, JavaScript, and Python. Check out his webpage <Link href="https://theonlywei.github.io/" target="_blank">here</Link>.
               </Description>
             </Title>
           </Card>
