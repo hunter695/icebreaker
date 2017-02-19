@@ -8,20 +8,23 @@ const Root = styled.main`
 const Cards = styled.section`
   display: flex;
   justify-content: space-around;
+
 `;
 
 const Card = styled.div`
   background: #fff;
-  border-radius: 2px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
-  min-height: 400px;
+  min-height: 550px;
+  min-width: 320px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 `;
 
 const Portrait = styled.img`
   flex: 0 0 300px;
+  border-radius: 5px 5px 0px 0px;
 `;
 
 const Title = styled.div`
@@ -29,7 +32,17 @@ const Title = styled.div`
 `;
 
 const Description = styled.div`
+  padding: 15px 15px 40px 15px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  &:hover {
+    color: #c9abf4;
+  }
 `;
 
 export default class About extends Component {
@@ -66,11 +79,11 @@ export default class About extends Component {
             </Title>
           </Card>
           <Card>
-            <Portrait src="https://unsplash.it/200" />
+            <Portrait src={require("../../images/wei.jpg")} />
             <Title>
               <h2>Wei</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur quis ipsum minima, aliquam dolores incidunt libero reprehenderit assumenda! Aperiam eveniet nam tempora mollitia. Quo deserunt nemo laudantium veniam nostrum!
+                Wei Shi is a computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. Although C++ is his main programming language, he has experience in Java, JavaScript, and Python. Check out his webpage <Link href="https://theonlywei.github.io/">here</Link>.
               </Description>
             </Title>
           </Card>
