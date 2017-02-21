@@ -67,7 +67,7 @@ export default class About extends Component {
             <Title>
               <h2>Joy</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores maxime nisi magni soluta. Necessitatibus dignissimos voluptates, tenetur, at earum voluptas commodi aliquid nam quibusdam officia enim fugiat placeat accusamus.
+                Computer science major and theater minor at Hunter College. Will be graduating May 2017. Programs mainly in C++ but spreading out to Nodejs and Python. Doesn't like the color pink. Likes long walks on the beach...Basically long walks anywhere.
               </Description>
             </Title>
           </Card>
