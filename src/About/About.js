@@ -51,16 +51,19 @@ export default class About extends Component {
         <h1>The Squad</h1>
         <Cards>
           <Card>
-            <Portrait src="https://unsplash.it/200" />
+            <Portrait src={require("../../images/igor.jpg")} />
             <Title>
               <h2>Igor</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odit eos ipsum eligendi temporibus alias consequatur velit cupiditate magni fuga nihil recusandae excepturi quam in, dolorem repellat provident illo officia!
+                <p>Web Developer</p>
+                <p>I have experience in a multitude of technologies and am currectly focusing on modern web tools.</p>
+                <a href="http://igorgee.xyz">Website</a><br/>
+                <a href="https://github.com/igorgee">Github</a>
               </Description>
             </Title>
           </Card>
           <Card>
-            <Portrait src="https://unsplash.it/200" />
+            <Portrait src={require("../../images/joy.jpg")} />
             <Title>
               <h2>Joy</h2>
               <Description>
@@ -73,7 +76,7 @@ export default class About extends Component {
             <Title>
               <h2>Mabel</h2>
               <Description>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quas eum fuga? Vel molestiae harum eius sapiente quisquam expedita amet quo iste in hic, repellendus minima odio distinctio ut laborum!
+                I am a senior at Hunter College with a major in Computer Science. I am interested in creating mobile applications. I have experience working with java, c++ and python. I am currently learning more about web development using Javascript, React as well as various database programs. I look forward to working with my teammates to create a Web app that is user friendly and a fun experience.
               </Description>
             </Title>
           </Card>
