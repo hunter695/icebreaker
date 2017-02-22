@@ -84,8 +84,10 @@ export default class About extends Component {
             <Portrait src={require("../../images/wei.jpg")} />
             <Title>
               <h2>Wei</h2>
-              <Description>
-                Wei Shi is a computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. Although C++ is his main programming language, he has experience in Java, JavaScript, and Python. Check out his webpage <Link href="https://theonlywei.github.io/">here</Link>.
+              	<Description>
+					<p>I am computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p> 
+					<a href="https://theonlywei.github.io/">Website</a><br/>
+                	<a href="https://github.com/TheOnlyWei">Github</a>
               </Description>
             </Title>
           </Card>
