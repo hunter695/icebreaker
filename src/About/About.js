@@ -72,7 +72,7 @@ export default class About extends Component {
             </Title>
           </Card>
           <Card>
-            <Portrait src="https://unsplash.it/200" />
+            <Portrait src={require("../../images/Mabel.jpg")} />
             <Title>
               <h2>Mabel</h2>
               <Description>
@@ -85,8 +85,8 @@ export default class About extends Component {
             <Title>
               <h2>Wei</h2>
               	<Description>
-					<p>I am computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p> 
-					<a href="https://theonlywei.github.io/">Website</a><br/>
+                  <p>I am computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p>
+                  <a href="https://theonlywei.github.io/">Website</a><br/>
                 	<a href="https://github.com/TheOnlyWei">Github</a>
               </Description>
             </Title>
