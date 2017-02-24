@@ -8,7 +8,7 @@ const Root = styled.main`
 const Cards = styled.section`
   display: flex;
   justify-content: space-around;
-
+  flex-wrap: wrap;
 `;
 
 const Card = styled.div`
@@ -37,13 +37,6 @@ const Description = styled.div`
 
 `;
 
-const Link = styled.a`
-  text-decoration: none;
-  &:hover {
-    color: #c9abf4;
-  }
-`;
-
 export default class About extends Component {
   render() {
     return (
@@ -67,7 +60,7 @@ export default class About extends Component {
             <Title>
               <h2>Joy</h2>
               <Description>
-                Computer science major and theater minor at Hunter College. Will be graduating May 2017. Programs mainly in C++ but spreading out to Nodejs and Python. Doesn't like the color pink. Likes long walks on the beach...Basically long walks anywhere.
+                Computer science major and theater minor at Hunter College. Will be graduating May 2017. Programs mainly in C++ but spreading out to Nodejs and Python. Doesn&#39;t like the color pink. Likes long walks on the beach...Basically long walks anywhere.
               </Description>
             </Title>
           </Card>
@@ -85,7 +78,7 @@ export default class About extends Component {
             <Title>
               <h2>Wei</h2>
               	<Description>
-                  <p>I am computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p>
+                  <p>I&#39;m computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p>
                   <a href="https://theonlywei.github.io/">Website</a><br/>
                 	<a href="https://github.com/TheOnlyWei">Github</a>
               </Description>
