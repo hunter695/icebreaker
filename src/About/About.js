@@ -18,6 +18,7 @@ const Card = styled.div`
   flex-direction: column;
   flex: 0 0 300px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-bottom: 30px;
 `;
 
 const Portrait = styled.img`
@@ -27,11 +28,10 @@ const Portrait = styled.img`
 `;
 
 const Title = styled.div`
-
 `;
 
 const Description = styled.div`
-  padding: 15px 15px 40px 15px;
+  padding: 15px 15px 20px 15px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -60,7 +60,8 @@ export default class About extends Component {
             <Title>
               <h2>Joy</h2>
               <Description>
-                Computer science major and theater minor at Hunter College. Will be graduating May 2017. Programs mainly in C++ but spreading out to Nodejs and Python. Doesn&#39;t like the color pink. Likes long walks on the beach...Basically long walks anywhere.
+                <p>Computer science major and theater minor at Hunter College graduating in May 2017. Programs mainly in C++ but spreading out to Nodejs and Python. Doesn&#39;t like the color pink.</p>
+                <a href="https://github.com/jurddle">Github</a>
               </Description>
             </Title>
           </Card>
@@ -69,7 +70,7 @@ export default class About extends Component {
             <Title>
               <h2>Mabel</h2>
               <Description>
-                I am a senior at Hunter College with a major in Computer Science. I am interested in creating mobile applications. I have experience working with java, c++ and python. I am currently learning more about web development using Javascript, React as well as various database programs. I look forward to working with my teammates to create a Web app that is user friendly and a fun experience.
+                <p>I am a senior at Hunter College with a major in Computer Science. I am interested in creating mobile applications. I have experience working with java, c++ and python. I am currently learning more about web development using Javascript, React as well as various database programs. I look forward to working with my teammates to create a Web app that is user friendly and a fun experience.</p>
               </Description>
             </Title>
           </Card>
@@ -80,7 +81,7 @@ export default class About extends Component {
               	<Description>
                   <p>I&#39;m computer science student at City University of New York, minoring in physics and mathematics, graduating in May 2017. C++ is my main programming language, but I also have experience in Java, JavaScript, and Python.</p>
                   <a href="https://theonlywei.github.io/">Website</a><br/>
-                	<a href="https://github.com/TheOnlyWei">Github</a>
+                	<a href="https://github.com/TheOnlyWei">Github</a> 
               </Description>
             </Title>
           </Card>
